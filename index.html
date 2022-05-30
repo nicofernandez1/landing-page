@@ -2,73 +2,83 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>This website is awesome</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div>
-            <div>
-                <div>Header Logo</div>
-                <ul>
-                    <li>header link one</li>
-                    <li>header link one</li>
-                    <li>header link one</li>
-                </ul>
-            </div>
-            <div>
-                <div>
-                    <h2>This website is awesome</h2>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                    <button>Sign up</button>
-                </div>
-                <div>
-                    <img src="img/Gato.jpg" alt="Gato">
-                </div>
-            </div>
-        </div>
+        <header>
+            <div class="container">
+                <nav>
+                    <h2 class="logo-text">Header Logo</h2>
+                    <ul>
+                        <li>
+                            <a class="secondary-text" href="#">header link one</a>
+                        </li>
+                        <li>
+                            <a class="secondary-text" href="#">header link two</a>
+                        </li>
+                        <li>
+                            <a class="secondary-text" href="#">header link three</a>
+                        </li>
+                    </ul>
+                </nav>
 
-        <div>
-            <h2>Some random information.</h3>
-            <div>
-                <div>
-                    <img src="#" alt="#">
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <img src="#" alt="#">
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <img src="#" alt="#">
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div>
-                    <img src="#" alt="#">
-                    <p>this is some subtext under an illustration or image</p>
+                <div class="header">
+                    <div class="header-container">
+                        <h1 class="main-text">This website is awesome</h1>
+                        <p class="secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                        <button class="header-button">Sign up</button>
+                    </div>
+                    <img class="header-image" src="img/Atardecer.jpg" alt="Atardecer">
                 </div>
             </div>
-        </div>
-
-        <div>
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <div>-Thor, God of Thunder</div>
-        </div>
-
-        <div>
-            <div>
-                <div>
-                    <div>Call to action! It's time!</div>
-                    <p>Sign up for our product by clicking that button right over there!</p>
+        </header>
+        
+        <section>
+            <h2 class="information-text">Some random information.</h3>
+            <div class="boxes-container">
+                <div class="box">
+                    <img class="box-image" src="img/background.jpg" alt="Background">
+                    <p class="box-text">this is some subtext under an illustration or image</p>
                 </div>
-                <div>
-                    <button>Sign up</button>
+                <div class="box">
+                    <img class="box-image" src="img/building.jpg" alt="Building">
+                    <p class="box-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="box">
+                    <img class="box-image" src="img/circles.png" alt="Circles">
+                    <p class="box-text">this is some subtext under an illustration or image</p>
+                </div>
+                <div class="box">
+                    <img class="box-image" src="img/valentines-day.png" alt="Valentine's Day">
+                    <p class="box-text">this is some subtext under an illustration or image</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div>
-            <div>Copyright © The Odin Project 2021</div>
-        </div>
+        <section class="section-two">
+            <div class="quote-container">
+              <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+              <h2 class="thor-text">-Thor, God of Thunder</h2>
+            </div>
+        </section>
+
+        <section class="section-three">
+            <div class="blue-container">
+                <div class="action-container">
+                    <div class="action-text">Call to action! It's time!</div>
+                    <p class="sign-up-text">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="button-container">
+                    <button class="section-button">Sign up</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-text">Copyright © The Odin Project 2021</div>
+        </footer>
+
     </body>
 </html>
